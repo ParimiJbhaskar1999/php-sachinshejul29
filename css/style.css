@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,700;1,100;1,500;1,700&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  transition: all 0.24s;
+  font-family: Raleway;
+  vertical-align: middle;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  background: #e9ebee;
+  font-size: 18px;
+  font-family:Raleway;
+  color: #333;
+  padding: 0px 0 50px 0;
+}
+
+
+h2 {
+  font-size: 49px;
+  line-height: 1;
+  vertical-align: top;
+  padding-top: 30px;
+}
+
+
+h2,
+h2 span {
+  font-family: 'Raleway', sans-serif
+  font-weight: 200;
+}
+
+
+button {
+  border: none;
+}
+
+.button {
+  display: inline-block;
+  background: #5cb85c;
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.25), 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  text-decoration: none;
+}
+
+.button-primary {
+  background: #5cb85c;
+  padding: 15px 30px;
+  font-family: 'Raleway';
+  border-radius: 8px;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background: #243949;
+}
+
+
+/* Login */
+
+.form {
+  width: 500px;
+  height: 380px;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 1.5rem;
+  border: 1px solid #eee;
+  box-shadow: 0 1rem 3rem 0.03rem rgba(0, 0, 0, 0.1);
+  font-family: "Raleway";
+}
+
+
