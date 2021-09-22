@@ -1,0 +1,55 @@
+[1mdiff --git a/code/mailInput.php b/code/mailInput.php[m
+[1mindex d11f769..0162186 100644[m
+[1m--- a/code/mailInput.php[m
+[1m+++ b/code/mailInput.php[m
+[36m@@ -6,7 +6,7 @@[m
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1">   [m
+  [m
+[31m-[m
+[32m+[m[32m     <link rel="stylesheet" href="../css/style.css">[m
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">[m
+   	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">[m
+ [m
+[36m@@ -14,8 +14,10 @@[m
+ </head>[m
+ [m
+ <body style="background-color: #eee;">[m
+[31m-	[m
+[32m+[m[41m    [m
+[32m+[m
+ 	<form class="form" action="" method="POST" style="margin-top: 100px; background-color: #ccc; padding-top: 40px" id="Validate">[m
+[32m+[m[32m        <h2 style="padding-bottom: 30px; font-size: 40px;">Subscribe for Comics!</h2>[m
+ [m
+ 		<div class="form-group col-md-10" style="padding-left: 110px; padding-top: 10px;">[m
+             <input type="text" id="email" style="font-family: Raleway;" name="email" placeholder="Enter valid Email" class="form-control">[m
+[1mdiff --git a/css/style.css b/css/style.css[m
+[1mindex 4195dfb..0f7f7d3 100644[m
+[1m--- a/css/style.css[m
+[1m+++ b/css/style.css[m
+[36m@@ -27,20 +27,6 @@[m [mbody {[m
+ }[m
+ [m
+ [m
+[31m-h2 {[m
+[31m-  font-size: 49px;[m
+[31m-  line-height: 1;[m
+[31m-  vertical-align: top;[m
+[31m-  padding-top: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-h2,[m
+[31m-h2 span {[m
+[31m-  font-family: 'Raleway', sans-serif[m
+[31m-  font-weight: 200;[m
+[31m-}[m
+[31m-[m
+ [m
+ button {[m
+   border: none;[m
+[36m@@ -90,3 +76,4 @@[m [mbutton {[m
+ }[m
+ [m
+ [m
+[41m+[m

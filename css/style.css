@@ -27,20 +27,6 @@ body {
 }
 
 
-h2 {
-  font-size: 49px;
-  line-height: 1;
-  vertical-align: top;
-  padding-top: 30px;
-}
-
-
-h2,
-h2 span {
-  font-family: 'Raleway', sans-serif
-  font-weight: 200;
-}
-
 
 button {
   border: none;
@@ -88,5 +74,6 @@ button {
   box-shadow: 0 1rem 3rem 0.03rem rgba(0, 0, 0, 0.1);
   font-family: "Raleway";
 }
+
 
 

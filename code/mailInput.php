@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">   
  
-
+     <link rel="stylesheet" href="../css/style.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
@@ -14,8 +14,10 @@
 </head>
 
 <body style="background-color: #eee;">
-	
+    
+
 	<form class="form" action="" method="POST" style="margin-top: 100px; background-color: #ccc; padding-top: 40px" id="Validate">
+        <h2 style="padding-bottom: 30px; font-size: 40px;">Subscribe for Comics!</h2>
 
 		<div class="form-group col-md-10" style="padding-left: 110px; padding-top: 10px;">
             <input type="text" id="email" style="font-family: Raleway;" name="email" placeholder="Enter valid Email" class="form-control">
