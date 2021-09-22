@@ -1,7 +1,9 @@
-# php-starter
+Application coding is in process.
 
-If you are reading this in your assignment repo, please read [assignment submission guidelines](https://learn.rtcamp.com/campus/php-assignments/guidelines/) before proceeding.
+Completed front-end for user email input with html/css.
 
-Then make sure to replace content of the file with information relevant to your assignment. 
+Added local database connection for testing purpose. Once application is fully working then will connect 
+it with hosting database.
 
-Writing your own README.md file is required anyway as per [assignment submission guidelines](https://learn.rtcamp.com/campus/php-assignments/guidelines/).
+Will be using sendgrid for email generation. Yet to create account on sendgrid.
+
