@@ -1,4 +1,6 @@
 <?php
+
+// Unsubscription query here
  include("dbconn.php");
  if(isset($_GET['id']))
 	{$id=$_GET['id'];

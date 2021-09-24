@@ -29,3 +29,47 @@
 	</form>
 
 </body>
+
+</html>
+
+<?php
+
+ require'config.php';
+ require 'sendgrid/vendor/autoload.php';
+
+if(isset($_POST['Validate']))
+  {
+ if(isset($_POST['email']))
+  {
+
+    // Email body here
+  $mail = htmlspecialchars($_POST['email']);
+  $body="Please click on below link for Email ID verification.<br>";
+  $body .="<a href='localhost/rtcamp/confirmMail.php?email=".$mail."'>Confirm Email</a>";
+  $email = new \SendGrid\Mail\Mail(); 
+  $email->setFrom(from_mail, from_name);
+
+  $email->setSubject("xkcd random comic");
+  $email->addTo($mail, "");
+
+  $email->addContent("text/html", $body);
+
+
+
+  $sendgrid = new \SendGrid(API_KEY);
+  try {
+      $response = $sendgrid->send($email);
+  } catch (Exception $e) {
+      echo 'Caught exception: '. $e->getMessage() ."\n";
+  }
+
+  echo "<script>alert('Email sent for verification')</script>";
+   
+  }
+  else
+  {
+    echo "<script>alert('FAILED')</script>";
+  }
+} 
+ ?>
+
