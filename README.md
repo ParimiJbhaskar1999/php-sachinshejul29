@@ -1,13 +1,13 @@
-Application coding is done.
+Application coding is done wtih sample data for confidential information as API key etc.
 
 Folders and Files as below:
 Folder Code: 	dbconn.php
-		config.php
+		config.php(Sample key)
 		index.php
 		mailInput.php
 		confirmMail.php
 		unsubscribe.php
-		users.sql
+		users.sql (Locally hosted database file for testing)
 
 Folder CSS:	style.css
 
